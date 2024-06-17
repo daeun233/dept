@@ -1,0 +1,23 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #728BDE !important;
+}
+
+/* 홈 영역 */
+header {
+    background-image: linear-gradient(to top, #a0b6ff4e, rgba(255, 255, 255, 0.2)), url(images/nn.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/* 학력 섹션 */
+.card-hover:hover {
+    background-color: #c8d5ff;
+}
+
